@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableCaching
 public class RateLimiterConfig {
-
   // Cache name constant to match the one used in RateLimiterService
   public static final String CACHE_NAME = "ipRateLimitCache";
 
